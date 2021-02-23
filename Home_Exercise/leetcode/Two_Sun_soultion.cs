@@ -50,14 +50,15 @@ namespace Home_Exercise.leetcode
                 int complement = target - array[i];
 
                 if (DictionaryOfTwoSums.ContainsValue(complement))
-                {
 
-                    int[] arr = { i,DictionaryOfTwoSums.ElementAt(complement).Key};
+                {
+                    int[] arr = { i, DictionaryOfTwoSums.ElementAt(complement).Key };
                     return arr;
                 }
 
             }
-            
+
+            throw new InvalidOperationException("no two numbers to match the sum");
 
         }
 
