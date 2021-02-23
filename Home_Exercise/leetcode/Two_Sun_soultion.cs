@@ -36,6 +36,33 @@ namespace Home_Exercise.leetcode
 
         }
 
+        public int[] TwoSumArraysUsingDictionary (int[] array, int target)
+        {
+            Dictionary<int, int> DictionaryOfTwoSums = new Dictionary<int, int>(); 
+            for (int i = 0; i < array.Length; i++)
+            {
+                DictionaryOfTwoSums.Add(i, array[i]);
+
+            }
+
+            for (int i = 0; i < array.Length;i++ )
+            {
+                int complement = target - array[i];
+
+                if (DictionaryOfTwoSums.ContainsValue(complement))
+
+                {
+                    int[] arr = { i, DictionaryOfTwoSums.ElementAt(complement).Key };
+                    return arr;
+                }
+
+            }
+
+            throw new InvalidOperationException("no two numbers to match the sum");
+
+        }
+
+
 
     }
 }
