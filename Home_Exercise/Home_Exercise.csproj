@@ -43,7 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-
+    <Compile Include="leetcode\longestCommonPrefix.cs" />
+    <Compile Include="leetcode\Palindmore.cs" />
+    <Compile Include="leetcode\Test.cs" />
     <Compile Include="leetcode\Two_Sun_soultion.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

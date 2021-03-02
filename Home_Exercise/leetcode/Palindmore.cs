@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Home_Exercise.leetcode
 {
-    class Test
+    class Palindmore
     {
-        public bool IsPalindrome2(int x)
+        public bool IsPalindrome(int x)
         {
             if (x < 0 || x % 10 == 0 && x != 0)
             {
@@ -30,7 +30,6 @@ namespace Home_Exercise.leetcode
 
         }
 
-
-
+      
     }
 }
