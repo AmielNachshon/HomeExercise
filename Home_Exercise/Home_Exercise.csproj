@@ -43,10 +43,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="leetcode\IsValid.cs" />
+    <Compile Include="leetcode\LastWord.cs" />
+    <Compile Include="leetcode\ListNode.cs" />
     <Compile Include="leetcode\longestCommonPrefix.cs" />
     <Compile Include="leetcode\Palindmore.cs" />
+    <Compile Include="leetcode\PlusOne.cs" />
+    <Compile Include="leetcode\RemoveDuplicatesfromSortedList.cs" />
+    <Compile Include="leetcode\RemoveElement.cs" />
+    <Compile Include="leetcode\SearchInsertExc.cs" />
+    <Compile Include="leetcode\SunArray.cs" />
     <Compile Include="leetcode\Test.cs" />
     <Compile Include="leetcode\Two_Sun_soultion.cs" />
+    <Compile Include="MaximumProductExe.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
